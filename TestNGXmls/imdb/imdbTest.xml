@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="methods" thread-count="2">
+	<parameter name="browser" value="Chrome"></parameter>
+	<parameter name="environment" value="imdb"></parameter>
+	<parameter name="testType" value="regression" />
+	<test name="imdb-test">
+		<classes>
+		<class name="com.imdb.IMDBTest"></class>
+		</classes>
+	</test>
+</suite>

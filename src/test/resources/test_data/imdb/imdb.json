@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "methodName": "searchIMDBMovieWithHightestIMDBRating",
+      "testdata": [
+        {
+          "searchRequest": {
+            "headers": {
+              "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com",
+              "x-rapidapi-key": "bb9a4dfdd4mshd06db605e1a1979p13fa34jsn939817d83644"
+            },
+            "queryParams": {
+              "page": "1",
+              "r": "json",
+              "type": "movie",
+              "s": "lord of the rings"
+            }
+          },
+          "titleRequest":{
+            "headers": {
+              "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com",
+              "x-rapidapi-key": "bb9a4dfdd4mshd06db605e1a1979p13fa34jsn939817d83644"
+            },
+            "queryParams": {
+              "i": "",
+              "r": "json"
+            }
+          },
+          "webSearchData": {
+            "searchValue": "lord of the rings"
+          }
+        }
+      ]
+    },
+    {
+      "methodName": "searchIMDBMovieWithHightestIMDBRatin",
+      "testdata": [
+        {
+          "searchRequest": {
+            "headers": {
+              "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com",
+              "x-rapidapi-key": "bb9a4dfdd4mshd06db605e1a1979p13fa34jsn939817d83644"
+            },
+            "queryParams": {
+              "page": "1",
+              "r": "json",
+              "type": "movie",
+              "s": "lord of the rings"
+            }
+          },
+          "titleRequest":{
+            "headers": {
+              "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com",
+              "x-rapidapi-key": "bb9a4dfdd4mshd06db605e1a1979p13fa34jsn939817d83644"
+            },
+            "queryParams": {
+              "i": "",
+              "r": "json"
+            }
+          },
+          "webSearchData": {
+            "searchValue": "lord of the rings"
+          }
+        }
+      ]
+    }
+  ]
+}
